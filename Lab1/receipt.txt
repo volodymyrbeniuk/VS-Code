@@ -1,0 +1,5 @@
+Cutlets 85 50 2
+Zrazy_Mushrooms 45 20 3
+Pancakes_Cheese 60 00 1
+Cream_Cheese 90 80 1
+Black_Tea 15 00 2
