@@ -88,3 +88,20 @@ void results() {
     show(r_sum);         
     cout << endl;
 }
+
+void showResults() {
+    cina total = {0, 0};
+    
+    // Рахуємо суму товарів (читаємо з файлу)
+    read(total);
+
+    std::cout << "Загальна сума: ";
+    show(total);
+
+    // Заокруглюємо і виводимо результат
+    cina rounded_total = total; 
+    round(rounded_total);
+    
+    std::cout << "Сума до оплати (заокруглена): ";
+    show(rounded_total);
+}

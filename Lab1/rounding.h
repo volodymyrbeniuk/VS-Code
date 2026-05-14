@@ -12,5 +12,6 @@ void multiply(cina &price, int n);
 void read(cina &sum_c);
 void show(cina c);
 void results();
+void showResults();
 
 #endif
